@@ -1,0 +1,193 @@
+* {margin:0; padding:0;}
+ 
+body {
+ background-color:#fff;
+ font-family:Arial, Helvetica, sans-serif;
+ color:#000;
+}
+
+nav {
+ margin:auto;
+ text-align: center;
+ width: 100%;
+} 
+
+nav ul ul {
+ display: none;
+}
+
+nav ul li:hover > ul{
+display: block;
+width: 150px;
+}
+
+nav ul {
+ background: #53bd84;
+ padding: 0 20px;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 100%;
+}
+
+nav ul:after {
+ content: ""; 
+ clear:both; 
+ display: block;
+}
+
+nav ul li{
+ float:left;
+}
+
+nav ul li:hover{
+ background:#666;
+}
+
+nav ul li:hover a{
+ color:#fff;
+}
+
+nav ul li a{
+ display: block;
+ padding: 25px;
+ color: #fff;
+ text-decoration: none;
+}
+
+nav ul ul{
+ background: red;
+ border-radius: 0px;
+ padding: 0;
+ position: absolute;
+ top:100%;
+}
+
+nav ul ul li{
+ float:none;
+ border-top: 1px soild #53bd84;
+ border-bottom: 1px solid #53bd84;
+ position: relative;
+}
+
+nav ul ul li a{
+ padding: 15px 40px;
+ color: #fff;
+}
+
+nav ul ul li a:hover{
+ background-color: #666;
+}
+
+nav ul ul ul{
+ position: absolute;
+ left: 100%;
+ top: 0;
+}
+.background-wrap{
+	position: fixed;
+	z-index: -1000;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+#video-bg-elem {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.contact-grids {
+    padding: 3em 0 0;
+}
+.contact-bottom-top textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #bbb;
+    -webkit-appearance: none;
+    outline: none;
+    color: #bbb;
+    min-height: 220px;
+    resize: none;
+    transition: border-color 0.4s;
+    -webkit-transition: border-color 0.4s;
+    -moz-transition: border-color 0.4s;
+    -o-transition: border-color 0.4s;
+    -ms-transition: border-color 0.4s;
+    background: none;
+}
+.contact-bottom input[type="text"]:hover, .contact-bottom-top textarea:hover {
+    color: #202020;
+    border-color: #a3925e;
+}
+.contact-bottom-top {
+    margin: 1em 15px 0;
+}.
+.contact-form input[type="submit"] {
+    background: #d21826;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 1em 15px 0;
+    padding: 0.3em 1em;
+    font-size: 1.2em;
+    display: inline-block;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.contact-form input[type="submit"]:hover {
+    background: #6D6767;
+}
+table,tr,td{
+background-color: LightGoldenRodYellow ;
+font-family: century gothic;
+color: green;
+border: 1px solid aqua;
+padding: 5px;
+border-collapse: collapse;
+}
+.h{
+border: 8px groove yellow;
+padding: 20px;
+}
+.posisi{
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: auto;
+left: 0;
+right: 0;
+top: 100px;
+bottom: 0;
+}
+body{
+background-image: url('background angga.jpg');
+background-repeat: no-repeat;
+background-size: 1400px auto;
